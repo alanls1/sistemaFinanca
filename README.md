@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# Sistema de Finanças
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O Sistema de Finanças é uma aplicação web desenvolvida com TypeScript e React que permite aos usuários acompanhar seus ganhos e gastos mensais, fornecendo uma visão clara do saldo final.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Inserir Ganhos:** Os usuários podem adicionar ganhos à sua conta, especificando a origem e o valor do ganho.
 
-### `npm start`
+- **Inserir Gastos:** Os usuários podem registrar seus gastos, indicando a categoria do gasto e o valor.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Como Usar
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone este repositório em sua máquina local.
+   ```bash
+   git clone https://github.com/seu-usuario/sistema-de-financas.git
+   ```
 
-### `npm test`
+2. Instale as dependências do projeto.
+   ```bash
+   cd sistema-de-financas
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Execute a aplicação em modo de desenvolvimento.
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+4. Acesse a aplicação em seu navegador.
+   ```
+   http://localhost:3000
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Comece a usar o Sistema de Finanças, inserindo seus ganhos e gastos mensais.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribuição
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Se você deseja contribuir com melhorias para o Sistema de Finanças, fique à vontade para abrir uma issue ou enviar um pull request.
